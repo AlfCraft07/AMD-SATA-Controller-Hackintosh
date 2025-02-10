@@ -3,10 +3,10 @@
 Patched version of SATA-unsupported.kext to allow macOS to detect SATA controllers used by AMD PCs. Use recommended only if your computer can't read all or some internal disks in macOS.
 
 Known working in:
-11.x Big Sur - 15.x Sequoia
+10.13.x High Sierra - 15.x Sequoia
 
 May be working in:
-10.15 Catalina and older
+10.12 Sierra and older
 
 This kext has no executable, it just consists of an Info.plist file that adds the missing entries for the AMD SATA controller device ID to the macOS AppleAHCIPort driver.
 
